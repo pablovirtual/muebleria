@@ -1,0 +1,355 @@
+/*inicio de estilo pagina index*/
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+.titulo{
+    text-align: center;
+    color: gray;
+    font-family: 'Rampart One', cursive;
+}
+
+ul{
+    list-style-type: none;
+    margin: 10px;
+    padding: 1px;
+    overflow: hidden;
+    background-color: gainsboro;
+}
+li{
+    float: left;
+}
+li:last-child{
+    border-right: none;
+}
+li a{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color:rgb(250, 128, 114);
+    padding: 20px 35px;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+li a:hover:not(.active){
+    background-color: darkgrey;
+}
+li a.active{
+    color: cyan;
+    background-color: aqua;
+}
+
+#logo{
+    
+    height: 80px;
+    float: right;
+    
+}
+
+.escritorio{
+    
+    height: 380px;
+    border-radius: 5px;
+    border-left: 5px;
+    margin: 10px;
+}
+.silla{
+    border-radius: 20px;
+    border-left: 5px;
+}
+.lamparas{
+    border-radius: 5px;
+    border-left: 5px;
+    margin: 10px;
+}
+.contenido{
+    display: flex;
+    justify-content: center;
+}
+.contenido_1{
+    display: block;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Rampart One', cursive;
+    font-size: 170%;
+    color: grey;  
+    
+}
+
+#twiter{
+    
+    height: 50px;
+    border-radius: 80px;
+    float: left;
+    margin: 10px;
+    padding: 15px;
+}
+#face{
+    height: 50px;
+    border-radius: 50px;
+    float: left;
+    margin: 10px;
+}
+
+.final{
+    display: block;
+   background-color:#C9CFD6;
+   text-align: left;
+   padding-top: 5px;
+   padding: 5px 10px 5px;
+  
+}
+.pie_pagina{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 18px;
+    padding: 10px;
+
+/*fin de estilo pagina index*/  
+}
+/*inicio de estilo pagina escritorios*/
+.escritorios_1{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    align-items: baseline;
+    text-align: center;
+    margin-top: 25px;
+}
+
+
+/*fin estilo pagina escritorios*/
+
+/*inicio estilo pagina sillas*/
+.sillas_{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    align-items: baseline;
+    text-align: center;
+    margin-top: 25px;
+}
+#silla{
+    background-color:gray;
+    border-style: double;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px;
+}
+#silla1{
+    background-color:gray;
+    border-style: double;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px;
+}
+#silla2{
+    background-color:gray;
+    border-style: double;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px;
+}
+#silla3{
+    background-color:gray;
+    border-style: double;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px;
+}
+#silla4{
+    background-color:gray;
+    border-style: double;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px;
+}
+/*fin pagina estilo sillas*/
+
+/*inicio pagina estilo mesas*/
+.mesas{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    align-items: baseline;
+    text-align: center;
+    margin-top: 25px;
+}
+.imagenes{
+    background-color:gray;
+    border-style: double;
+    border-radius: 10px;
+    padding: 5px;
+    padding-bottom: 5px;
+    margin: 5px;
+}
+/*fin pagina estilo mesas*/
+
+/*inicio pagina estilo muebles*/
+.muebles{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    align-items: baseline;
+    text-align: center;
+    margin-top: 25px;
+}
+/*fin pagina estilo muebles*/
+
+/*Inicio diseño pagina lamparas*/
+.lamparas{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 25px;
+}
+.lamparas_1{
+    background-color:aliceblue;
+    border-style: double;
+    border-radius: 10px;
+}
+/*fin diseño pagina lamparas*/
+
+/*Inicio diseño pagina nostros*/
+
+.presentacion1{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    text-align: center
+    
+}
+.negocio{
+    display: inline;
+    float: left;
+    padding-left: 15px;
+    border-radius: 10px;
+}
+.presentacion{
+    display: inline;
+    text-align: center;
+    padding-left: 15px;
+    font-size: 20px;
+    color: gray;
+    
+}
+.lista{
+    display: inline-block;
+    font-size: 20px;
+    text-align: center;
+    color: gray;
+    
+   
+}
+.center{
+    display:inline-block;
+    float:none;
+    
+}
+/*fin diseño pagina nosotros*/
+
+.formulario{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.center1{
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+.contenedor{
+    display: flex;
+    justify-content: space-around;
+    padding: 5px 10px 20px;
+}
+/*fin diseño pagina nosotros*/
+
+/*inicio diseño pagina preguntas*/
+
+.preguntas{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+/*fin diseño pagina preguntas*/
+
+/*inicio diseño pagina carrito*/
+
+
+.formulario_2{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    padding: 5px 10px 20px;
+}
+.visa{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    padding: 5px 10px 5px ;
+}
+/*fin diseño pagina carrito*/
+
+@media screen and (max-width : 380px) {
+ div{
+    width: auto;
+    
+    float: left;
+ }
+ nav{
+    width: auto;
+    float: left;
+ }
+ img{
+    width: auto;
+    float: none;
+ }
+ ul{
+    width: auto;
+    float: none;
+ }
+ pie_pagina{
+    width: auto;
+    height: 100%;
+    float: none;
+ }
+}
+@media screen and (max-width : 780)  {
+    div{
+        width: 100%;
+        float: left;
+     }
+     nav{
+        width: 100%;
+        float: left;
+     }
+     img{
+        width: 100%;
+        height: auto;
+     } 
+    ul{
+        width: 100%;
+        float: none;
+    }
+    pie_pagina{
+        width: 100%;
+        float: none;
+        height: 100%;
+     }
+}
+
+
