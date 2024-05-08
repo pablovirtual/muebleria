@@ -1,6 +1,13 @@
 /*inicio de estilo pagina index*/
 @import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
 
+h3{
+    text-align: center;
+    color: dodgerblue;
+    font-family: 'Rampart One', cursive;
+
+}
+
 img{
     max-width: 100%;
     height: auto;
@@ -58,8 +65,9 @@ li a.active{
     margin: 10px;
 }
 .silla{
-    border-radius: 20px;
+    border-radius: 5px;
     border-left: 5px;
+    margin: 10px;
 }
 .lamparas{
     border-radius: 5px;
@@ -214,7 +222,7 @@ li a.active{
 .lamparas_1{
     background-color:aliceblue;
     border-style: double;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 /*fin diseño pagina lamparas*/
 
@@ -350,6 +358,15 @@ li a.active{
         float: none;
         height: 100%;
      }
+}
+.nosotros{
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 5px 10px 20px;
+   
 }
 
 
